@@ -77,7 +77,7 @@ public class App {
 	    	String line = currentUser.trim();
 	    	
 	    	if(line.startsWith(userToDelete)) {
-	    		String[] word = line.split(" ", 0);
+	    		String[] word = line.split(" ");
 	    		System.out.print(" User '");
 	    		System.out.print(word[0]);
 	    		System.out.print("' was deleted");
