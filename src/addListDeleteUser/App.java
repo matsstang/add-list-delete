@@ -81,10 +81,11 @@ public class App {
 	    		System.out.print("' was deleted");
 	    		continue;
 		}
+		if((line.startsWith(userToDelete)) != true) {
 		System.out.println();
 	    	System.out.println(" Wrong type");
 	    	System.out.println(" Please try again");
-		    
+		}    
 	    	pw.write(currentUser + "\n");
 	    }
 	    br.close();
