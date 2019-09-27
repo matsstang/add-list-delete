@@ -79,7 +79,12 @@ public class App {
 	    		System.out.print(" User '");
 	    		System.out.print(word[0]);
 	    		System.out.print("' was deleted");
-	    	continue;}
+	    		continue;
+		}
+		System.out.println();
+	    	System.out.println(" Wrong type");
+	    	System.out.println(" Please try again");
+		    
 	    	pw.write(currentUser + "\n");
 	    }
 	    br.close();
