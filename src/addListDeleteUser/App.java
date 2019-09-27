@@ -78,9 +78,9 @@ public class App {
 	    	
 	    	if(line.startsWith(userToDelete)) {
 	    		String[] word = line.split(" ", 0);
-	    		System.out.print(" User ");
-	    		System.out.print(Arrays.toString(word));
-	    		System.out.print(" was deleted");
+	    		System.out.print(" User '");
+	    		System.out.print(word[0]);
+	    		System.out.print("' was deleted");
 	    	continue;}
 	    	pw.write(currentUser + "\n");
 	    }
